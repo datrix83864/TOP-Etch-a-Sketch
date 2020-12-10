@@ -13,7 +13,7 @@ function makeGrid(sideSize){
             square.style.gridColumn = i + 1;
             square.style.gridRow = j + 1;
             square.style.minHeight = '10px';
-            square.style.backgroundColor = 'pink';
+            square.style.backgroundColor = 'white';
             //square.textContent = i;
             //square.style.gridAutoColumns = minmax(10, auto);
             grid.appendChild(square);
